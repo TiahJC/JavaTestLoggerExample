@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stengg.mss.data.AssetMapper" >
+    <resultMap id="assetResult" type="asset">
+        <id property="id" column="assets_id" />
+        <result property="assets_sn" column="assets_sn"/>
+        <result property="assets_desc" column="assets_desc"/>
+        <result property="assets_cd" column="assets_cd"/>
+        <result property="assets_handover" column="assets_handover"/>
+        <result property="assets_status" column="assets_status"/>
+    </resultMap>
+
+    <select id="getAssetCount" resultType="Integer">
+        SELECT COUNT(*) FROM assets
+    </select>
+    <select id="selectAsset" resultType="asset" parameterType="int" resultMap="assetResult">
+        SELECT * from assets WHERE assets_id = #{id}
+    </select>
+    <insert id="insertAsset" parameterType="asset"  keyProperty="id" useGeneratedKeys="true">
+        INSERT into assets(assets_sn, assets_desc, assets_cd, assets_handover,assets_status)
+        VALUES(#{assets_sn}, #{assets_desc}, #{assets_cd}, #{assets_handover},#{assets_status})
+    </insert>
+    <update id="updateAsset" parameterType="asset">
+        UPDATE assets SET assets_sn=#{assets_sn}, assets_desc =#{assets_desc}, assets_cd =#{assets_cd}, assets_handover =#{assets_handover}, assets_status =#{assets_status}
+        WHERE assets_id =#{id}
+    </update>
+    <delete id="deleteAsset" parameterType="int">
+        DELETE FROM assets WHERE assets_id =#{id}
+    </delete>
+</mapper>

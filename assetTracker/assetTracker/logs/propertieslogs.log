@@ -1,0 +1,22 @@
+[INFO ] 2022-10-25 14:09:44.846 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:20:37.755 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:21:22.726 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:25:32.577 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:26:40.821 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:26:56.602 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:31:28.342 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:34:07.605 [main] AssetDaoTest -  asset num >> 0
+[INFO ] 2022-10-25 14:37:44.015 [main] AssetDaoTest -  asset num >> 0
+[ERROR] 2022-10-25 14:37:44.015 [main] AssetDaoTest - test1expected: <true> but was: <false>
+[INFO ] 2022-10-25 14:41:26.079 [main] AssetDaoTest -  asset return >> id = 9 name = abc1234 description = model ABC, RAM 32GB, INTEL 7 serialAlphaNumber = Tue Oct 25 00:00:00 SGT 2022 createdDate = Sun Sep 25 00:00:00 SGT 2022 status = enabled
+[INFO ] 2022-10-25 14:43:35.156 [main] AssetDaoTest -  asset return >> id = 10 name = abc1234 description = model ABC, RAM 32GB, INTEL 7 serialAlphaNumber = Tue Oct 25 00:00:00 SGT 2022 createdDate = Sun Sep 25 00:00:00 SGT 2022 status = enabled
+[INFO ] 2022-10-25 14:45:43.269 [main] AssetDaoTest -  asset num >> 0
+[ERROR] 2022-10-25 14:45:43.284 [main] AssetDaoTest - test1expected: <true> but was: <false>
+[INFO ] 2022-10-25 14:45:43.361 [main] AssetDaoTest -  asset return >> id = 11 name = abc1234 description = model ABC, RAM 32GB, INTEL 7 serialAlphaNumber = Tue Oct 25 00:00:00 SGT 2022 createdDate = Sun Sep 25 00:00:00 SGT 2022 status = enabled
+[INFO ] 2022-10-25 15:13:48.920 [main] AssetDaoTest -  asset return >> id = 12 name = abc1234 description = model ABC, RAM 32GB, INTEL 7 serialAlphaNumber = Tue Oct 25 00:00:00 SGT 2022 createdDate = Sun Sep 25 00:00:00 SGT 2022 status = enabled
+[INFO ] 2022-10-25 15:14:05.426 [main] AssetDaoTest -  asset num >> 0
+[ERROR] 2022-10-25 15:14:05.433 [main] AssetDaoTest - test1expected: <true> but was: <false>
+[INFO ] 2022-10-25 15:14:05.505 [main] AssetDaoTest -  asset return >> id = 13 name = abc1234 description = model ABC, RAM 32GB, INTEL 7 serialAlphaNumber = Tue Oct 25 00:00:00 SGT 2022 createdDate = Sun Sep 25 00:00:00 SGT 2022 status = enabled
+[INFO ] 2022-10-25 17:25:50.364 [main] AssetDaoTest -  asset num >> 0
+[ERROR] 2022-10-25 17:25:50.364 [main] AssetDaoTest - test1expected: <true> but was: <false>
+[INFO ] 2022-10-25 17:25:50.424 [main] AssetDaoTest -  asset return >> id = 14 name = abc1234 description = model ABC, RAM 32GB, INTEL 7 serialAlphaNumber = Tue Oct 25 00:00:00 SGT 2022 createdDate = Sun Sep 25 00:00:00 SGT 2022 status = enabled
